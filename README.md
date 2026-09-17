@@ -277,6 +277,9 @@ CREATE TABLE IF NOT EXISTS portfolio_holdings (
 ---
 
 ## 📸 Screenshots & UI Walkthrough
+
+---
+
 <img width="1226" height="635" alt="image" src="https://github.com/user-attachments/assets/bec7c791-3b5e-41a0-9e7f-5ae92c7390a3" />
 <img width="1226" height="788" alt="image" src="https://github.com/user-attachments/assets/3156a513-5d8d-4aeb-a6fa-5885c5d77df2" />
 <img width="1153" height="567" alt="image" src="https://github.com/user-attachments/assets/b12be9b6-3229-4f86-bcc7-f71e15c609a6" />
