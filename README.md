@@ -290,6 +290,6 @@ CREATE TABLE IF NOT EXISTS portfolio_holdings (
 ---
 
 ### 👨‍💻 Author
-- **Abhinav**
+- Name **Abhinav**
 - Registration / Student ID: `25BAI10303`
 - Institution: *VIT Bhopal University*
