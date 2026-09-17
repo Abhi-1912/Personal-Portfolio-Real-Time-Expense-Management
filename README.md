@@ -1,4 +1,4 @@
-## Personal Portfolio & Real-Time Expense Management
+# Personal Portfolio & Real-Time Expense Management
 
 ## 📌 Table of Contents
 - [Overview](#-overview)
