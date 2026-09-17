@@ -64,6 +64,7 @@ Personal Portfolio Dashboard
 │   ├── MarketDataService (Async HttpClient & Jackson Parser)
 │   ├── BudgetAlertEngine (80% & 100% Threshold Validation)
 │   └── TransactionValidationUtils
+```
 ## 🚀 4. Installation & Setup Guide
 
 ### Prerequisites
@@ -78,14 +79,24 @@ java -version
 mvn -version
 └── Data Storage
     └── Local SQLite Storage (`vityarthi_portfolio.db`)
-🚀 4. Installation & Setup GuidePrerequisitesEnsure the following are installed on your machine:Java Development Kit (JDK) 17+Apache Maven (or Gradle)GitVerify your environment setup:Bashjava -version
+```
+## 🚀 4. Installation & Setup GuidePrerequisitesEnsure the following are installed on your machine:Java Development Kit (JDK) 17+Apache Maven (or Gradle)GitVerify your environment setup:Bashjava -version
 mvn -version
 QuickstartClone the repository:Bashgit clone [https://github.com/Abhinav/personal-portfolio-expense-dashboard.git](https://github.com/Abhinav/personal-portfolio-expense-dashboard.git)
 cd personal-portfolio-expense-dashboard
 Compile and build dependencies:Bashmvn clean compile
 Launch the JavaFX Application:Bashmvn javafx:run
 Execute Test Suite:Bashmvn test
-🧪 5. Testing InstructionsTest CaseModuleInput ActionExpected ResultTC-01Database ManagerEnter expense amount = ₹-500.00Throws TransactionValidationException cleanly without savingTC-02SQL Injection TestInput ' OR '1'='1 in transaction descriptionParameterized PreparedStatement safely escapes inputTC-03Budget WarningCategory expense hits 80% of monthly limitSystem triggers WARNING_80_PERCENT alert indicatorTC-04Budget BreachCategory expense hits 100% of monthly limitSystem triggers BREACH_100_PERCENT alert notificationTC-05Async Market FetchTrigger equity market price refreshFetch runs on worker thread; UI renders at smooth 60 FPSTC-06Network FailoverSimulate internet connection timeoutCircuit breaker falls back to cached prices in ConcurrentHashMapTC-07UI Data BindingLog new transaction entry of ₹15,000.00TableView, PieChart, and LineChart update dynamically📷 6. Application ScreenshotsMain DashboardTransaction ManagementVisual Analytics & ChartsBudget Threshold Alerts📂 7. Project StructurePlaintextpersonal-portfolio-expense-dashboard/
+Test Case,Module,Input Action,Expected Result
+## 🧪 5. Testing Instructions
+TC-01,Database Manager,Enter expense amount = ₹-500.00,Throws TransactionValidationException cleanly without saving
+TC-02,SQL Injection Test,Input ' OR '1'='1 in transaction description,Parameterized PreparedStatement safely escapes input
+TC-03,Budget Warning,Category expense hits 80% of monthly limit,System triggers WARNING_80_PERCENT alert indicator
+TC-04,Budget Breach,Category expense hits 100% of monthly limit,System triggers BREACH_100_PERCENT alert notification
+TC-05,Async Market Fetch,Trigger equity market price refresh,Fetch runs on worker thread; UI renders at smooth 60 FPS
+TC-06,Network Failover,Simulate internet connection timeout,Circuit breaker falls back to cached prices in ConcurrentHashMap
+TC-07,UI Data Binding,"Log new transaction entry of ₹15,000.00","TableView, PieChart, and LineChart update dynamically"
+## 6.Project StructurePlaintextpersonal-portfolio-expense-dashboard/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/vityarthi/portfolio/
@@ -119,4 +130,5 @@ Execute Test Suite:Bashmvn test
 ├── pom.xml
 ├── README.md
 └── STATEMENT.md
-🔮 8. Future Enhancements📱 Automated SMS Statement Parsing: Localized regex parsing engine to extract transaction records from bank SMS alerts.🔮 Machine-Learning Expense Prediction: Integration of linear regression algorithms for forecasting end-of-month cash flows.🔒 Encrypted Storage at Rest: Implementation of SQLCipher for transparent AES-256 bit encryption of local .db files.👨‍💻 9. Candidate & Project InformationProject Title: Personal Portfolio & Real-Time Expense Management DashboardCandidate Name: AbhinavRegistration Number: 25BAI10303Institution: VIT Bhopal UniversityCore Technology: Java 17+, JavaFX, JDBC, SQLite, HikariCP, Jackson Databind, JUnit 5License: MIT
+## 🔮 8. Future Enhancements📱 Automated SMS Statement Parsing: Localized regex parsing engine to extract transaction records from bank SMS alerts.🔮 Machine-Learning Expense Prediction: Integration of linear regression algorithms for forecasting end-of-month cash flows.🔒 Encrypted Storage at Rest: Implementation of SQLCipher for transparent AES-256 bit encryption of local .db files.
+👨‍💻 9. Candidate & Project InformationProject Title: Personal Portfolio & Real-Time Expense Management DashboardCandidate Name: AbhinavRegistration Number: 25BAI10303Institution: VIT Bhopal UniversityCore Technology: Java 17+, JavaFX, JDBC, SQLite, HikariCP, Jackson Databind, JUnit 5License: MIT
