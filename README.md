@@ -1,7 +1,7 @@
 # Personal Portfolio & Real-Time Expense Management
 
 ## 📌 Table of Contents
-- [Overview](#-overview)
+- [ Project Overview](#-project-overview)
 - [Key Features](#-key-features)
 - [System Architecture](#-system-architecture)
 - [Technologies & Tools Used](#-technologies--tools-used)
