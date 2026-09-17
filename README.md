@@ -1,0 +1,2 @@
+# Personal-Portfolio-Real-Time-Expense-Management
+Personal Portfolio &amp; Real-Time Expense Management is a Java desktop app to track daily spending, income, and investments in Indian Rupees. Easily log transactions, search past records, and monitor live stock or ETF values. Set category spending caps with automated alerts at 80% and 100% limits, and visualize net worth growth using dynamic charts.
