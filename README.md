@@ -1,9 +1,4 @@
-# Personal Portfolio & Real-Time Expense Management
-
-
-> An offline-first, privacy-focused financial desktop platform and interactive web dashboard engineered for university students, young professionals, and retail investors to consolidate real-time expense tracking, multi-asset portfolio valuation, and proactive budget threshold monitoring.
-
----
+## Personal Portfolio & Real-Time Expense Management
 
 ## 📌 Table of Contents
 - [Overview](#-overview)
@@ -23,7 +18,7 @@
 
 ---
 
-## 📖 Overview
+## 📖 Project Overview
 
 Modern university students and young working professionals often struggle with fragmented personal finances. Living expenses are scattered across bank accounts and UPI/digital wallets, while investment holdings (equities, index funds, mutual funds) are trapped in isolated brokerage apps. Manual spreadsheets suffer from manual data-entry errors, broken formulas, and a complete absence of live market valuation.
 
